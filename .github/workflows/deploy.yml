@@ -83,5 +83,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with: 
           bucket: custom-gha-js
-          bucket-region: 'eu-central-1'
+          # bucket-region: 'eu-central-1'
           dist-folder: ./dist
